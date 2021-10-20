@@ -1,0 +1,13 @@
+GIT INSTALLATION
+Git –version
+Git config –global user.name “Sakshi “
+Git config –global user.email “Sakshi…”
+Git config –list 
+Git help config or git config –help
+Go to folder on cd where your project is 
+$ git init – To initialize a repository 
+$ git status 
+$ git add -A
+
+
+
