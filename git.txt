@@ -1,0 +1,49 @@
+GIT INSTALLATION
+Git –version
+Git config –global user.name “Sakshi “
+Git config –global user.email “Sakshi…”
+Git config –list 
+Git help config or git config –help
+Go to folder on cd where your project is 
+$ git init – To initialize a repository 
+$ git status 
+$ git add -A
+
+
+
+hiral@Hiral-Sheth MINGW64 ~
+$ git clone https://github.com/hiralsheth/start.git
+Cloning into 'start'...
+warning: You appear to have cloned an empty repository.
+
+hiral@Hiral-Sheth MINGW64 ~
+$ cd start
+
+hiral@Hiral-Sheth MINGW64 ~/start (master)
+$ pwd
+/c/Users/hiral/start
+
+hiral@Hiral-Sheth MINGW64 ~/start (master)
+$ git add .
+
+hiral@Hiral-Sheth MINGW64 ~/start (master)
+$ git commit -m 'added'
+[master (root-commit) 786e8d3] added
+ 1 file changed, 13 insertions(+)
+ create mode 100644 git.txt
+
+hiral@Hiral-Sheth MINGW64 ~/start (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 382 bytes | 191.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hiralsheth/start.git
+ * [new branch]      master -> master
+
+hiral@Hiral-Sheth MINGW64 ~/start (master)
+$
+
+
