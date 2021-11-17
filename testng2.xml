@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="testing regression">
+    <classes>
+      <class name="verification.test.Lecture1"/>
+      <class name="verification.test.NewTest">
+      	<methods>
+      		<exclude name="TestFunctionThree" ></exclude>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- testing -->
+</suite> <!-- Suite -->
